@@ -1,0 +1,29 @@
+{
+  "name": "soundcloud-discord-bot",
+  "version": "1.0.0",
+  "description": "Ein Discord-Bot, der Musik von SoundCloud lädt und im Sprachkanal abspielt.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.16.1",
+    "@discordjs/rest": "^2.3.0",
+    "discord-api-types": "^0.37.83",
+    "discord.js": "^14.15.2",
+    "dotenv": "^16.4.5",
+    "soundcloud-downloader": "^1.2.0"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "soundcloud",
+    "music"
+  ],
+  "license": "MIT"
+}
